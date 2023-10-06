@@ -75,7 +75,7 @@ export default function Home() {
 
           <div className="mt-3">
             <h5>Front-End</h5>
-            <ProgressBar animated now={70} />
+            <ProgressBar animated now={70} striped variant="success"/>
           </div>
           <div className="mt-3">
             <h5>Back-End</h5>
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
           <div className="mt-3">
             <h5>Mobile</h5>
-            <ProgressBar animated now={10} />
+            <ProgressBar animated now={10} striped variant="danger"/>
           </div>
 
           <div className="d-flex gap-4 mt-5 justify-content-center h1">
