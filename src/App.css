@@ -1,0 +1,11 @@
+/*estilização pagina inteira*/
+.logo {
+    display: flex;
+    align-items: center;
+}
+  
+.logo-img {
+    display: flex;
+    width: 5em;
+    margin-right: 0;
+}
